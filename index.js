@@ -22,6 +22,7 @@ if (insertAfterElement) {
 
 function updateDivWidth() {
   const columnCount = window.innerWidth >= 1200 ? 4 : window.innerWidth >= 768 ? 3 : 1;
+    // i made div width a bit smaller than 2/3 so it would fit better on smaller screen
   const divWidth = (columnCount === 3 ? '60.66%' : columnCount === 4 ? '50%' : '100%');
   styledDiv.style.width = divWidth;
 }
