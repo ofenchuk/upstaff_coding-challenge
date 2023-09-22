@@ -1,6 +1,5 @@
 # upstaff_coding-challenge
 
-`
 const styledDiv = document.createElement('div');
     
 styledDiv.textContent = 'Random text that is centered both horizontally and vertically';
@@ -31,5 +30,3 @@ function updateDivWidth() {
 
 updateDivWidth();
 window.addEventListener('resize', updateDivWidth);
-
-`
